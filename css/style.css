@@ -1,0 +1,58 @@
+:root {
+  --bg-color: #000000;
+  --font-color: #e7e9ea;
+  --font-color-grey: #71767b;
+  --blue-color: #1a8cd8;
+  --hover-color: #181818;
+  --sidebar-bg-color: #16181c;
+  --button-white-color: #d7dbdc;
+}
+
+body {
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: system-ui, sans-serif;
+  font-weight: normal;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+/* Set Images Properly with max-width */
+img {
+  max-width: 100%; /* [1] */
+  height: auto; /* [1] */
+  vertical-align: middle; /* [2] */
+  font-style: italic; /* [3] */
+  background-repeat: no-repeat; /* [4] */
+  background-size: cover; /* [4] */
+  shape-margin: 0.75rem; /* [5] */
+}
+
+.wrapper {
+  min-block-size: 25ch;
+  inline-size: 100%;
+  max-inline-size: 1200px;
+  padding: 0 2rem;
+  margin-inline: auto;
+  height: 300px;
+}
+
+.header{
+
+}
+
+.logo{
+  width: 50px;
+  aspect-ratio: 1;
+}
+
+.x-logo{
+  width:27px;
+}
+
+.wrapper-left {
+
+
+}
+
+.wrapper-right {
+}
